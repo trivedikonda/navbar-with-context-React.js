@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.links-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-dark-theme {
+  background-color: #333333;
+}
+
+.navbar-light-theme {
+  box-shadow: 0px 4px 16px 0px #dcdcdc;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.route-link {
+  text-decoration: none;
+}
+
+.each-route {
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.link-dark-theme {
+  color: #171f46;
+}
+
+.link-light-theme {
+  color: #ffffff;
+}

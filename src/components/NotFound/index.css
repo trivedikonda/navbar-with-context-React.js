@@ -1,0 +1,26 @@
+.not-found-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+.paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.dark-theme-paragraph {
+  color: #ffffff;
+}
+.dark-theme-background {
+  background-color: black;
+}
+.dark-theme-heading {
+  color: #ffffff;
+}

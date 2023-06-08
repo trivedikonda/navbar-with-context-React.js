@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.container-dark {
+  background-color: #000000;
+}
+
+.route-heading {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.heading-dark {
+  color: #171f46;
+}
+
+.heading-light {
+  color: #ffffff;
+}
